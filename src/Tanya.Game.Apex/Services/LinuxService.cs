@@ -76,7 +76,7 @@ namespace Tanya.Game.Apex.Services
                         {
                             await foreach (var map in _linux.MapsAsync(process.Pid).ConfigureAwait(false))
                             {
-                                if (map.Pathname.ToLower().EndsWith("r5apex.exe"))
+                                if (true)
                                 {
                                     _runners.GetOrAdd(process.Pid, _ => Start(offsets, process.Pid, map.Start));
                                     knownSet.Add(process.Pid);
