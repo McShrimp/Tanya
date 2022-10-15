@@ -1,6 +1,6 @@
 # Tanya
 
-"Victory. Such a tempting thing. Naturally, everyone wants to savor a taste." - Tanya von Degurechaff
+“La plus belle des ruses du diable est de vous persuader qu'il n'existe pas." - Charles Baudelaire, Paris Spleen
 
 # Installation
 
