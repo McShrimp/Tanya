@@ -142,7 +142,7 @@ apt install -y git
 4. Clone this repository:
 
 ```
-git clone https://github.com/qq1148120042/project-tanya
+git clone https://github.com/McShrimp/Tanya
 ```
 
 5. Open the `project-tanya` directory:
