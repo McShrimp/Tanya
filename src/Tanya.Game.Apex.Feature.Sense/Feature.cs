@@ -28,10 +28,10 @@ namespace Tanya.Game.Apex.Feature.Sense
                     {
                         if (localPlayer.LocalOrigin.Distance(player.LocalOrigin) * Constants.UnitToMeter < _config.Distance)
                         {
-                            player.GlowEnable = (byte)(player.Visible ? 5 : 7);
+                            player.GlowEnable = (byte)(player.Visible ? 5 : 10);
                             player.GlowThroughWalls = (byte)(player.Visible ? 1 : 2);
                         }
-                        else if (player.GlowEnable is 5 or 7)
+                        else if (player.GlowEnable is 5 or 10)
                         {
                             player.GlowEnable = 2;
                             player.GlowThroughWalls = 5;
